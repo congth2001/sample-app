@@ -1,0 +1,46 @@
+[33mef96e25[m[33m ([m[1;36mHEAD -> [m[1;32minit_project[m[33m)[m HEAD@{0}: rebase (finish): returning to refs/heads/init_project
+[33mef96e25[m[33m ([m[1;36mHEAD -> [m[1;32minit_project[m[33m)[m HEAD@{1}: rebase (start): checkout HEAD~2
+[33md8d1e78[m HEAD@{2}: rebase (finish): returning to refs/heads/init_project
+[33md8d1e78[m HEAD@{3}: rebase (start): checkout HEAD^
+[33md8d1e78[m HEAD@{4}: commit (amend): --amend
+[33m2a7a46a[m[33m ([m[1;31morigin/init_project[m[33m)[m HEAD@{5}: reset: moving to 2a7a46ab7cd57619bcd66b788eabbeee76c97d4a
+[33m2a7a46a[m[33m ([m[1;31morigin/init_project[m[33m)[m HEAD@{6}: rebase (finish): returning to refs/heads/init_project
+[33m2a7a46a[m[33m ([m[1;31morigin/init_project[m[33m)[m HEAD@{7}: rebase (start): checkout HEAD^
+[33m2a7a46a[m[33m ([m[1;31morigin/init_project[m[33m)[m HEAD@{8}: rebase (finish): returning to refs/heads/init_project
+[33m2a7a46a[m[33m ([m[1;31morigin/init_project[m[33m)[m HEAD@{9}: rebase (start): checkout HEAD^
+[33m2a7a46a[m[33m ([m[1;31morigin/init_project[m[33m)[m HEAD@{10}: commit: --amend
+[33mef96e25[m[33m ([m[1;36mHEAD -> [m[1;32minit_project[m[33m)[m HEAD@{11}: checkout: moving from static-pages to init_project
+[33me8b876f[m[33m ([m[1;31morigin/static-pages[m[33m, [m[1;32mstatic-pages[m[33m)[m HEAD@{12}: checkout: moving from init_project to static-pages
+[33mef96e25[m[33m ([m[1;36mHEAD -> [m[1;32minit_project[m[33m)[m HEAD@{13}: rebase (finish): returning to refs/heads/init_project
+[33mef96e25[m[33m ([m[1;36mHEAD -> [m[1;32minit_project[m[33m)[m HEAD@{14}: rebase (start): checkout HEAD^
+[33mef96e25[m[33m ([m[1;36mHEAD -> [m[1;32minit_project[m[33m)[m HEAD@{15}: rebase (finish): returning to refs/heads/init_project
+[33mef96e25[m[33m ([m[1;36mHEAD -> [m[1;32minit_project[m[33m)[m HEAD@{16}: rebase: fast-forward
+[33m63f7c4a[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m HEAD@{17}: rebase: fast-forward
+[33m1c93be2[m HEAD@{18}: rebase (start): checkout 1c93be27d3e77673ee2c722479c4091ae136e657
+[33mef96e25[m[33m ([m[1;36mHEAD -> [m[1;32minit_project[m[33m)[m HEAD@{19}: pull --rebase origin init_project (finish): returning to refs/heads/init_project
+[33mef96e25[m[33m ([m[1;36mHEAD -> [m[1;32minit_project[m[33m)[m HEAD@{20}: pull --rebase origin init_project (start): checkout ef96e250b2e43232ec03ea7337a7e50d20dabf17
+[33m0b7bdf9[m HEAD@{21}: commit (amend): Init Project
+[33mef96e25[m[33m ([m[1;36mHEAD -> [m[1;32minit_project[m[33m)[m HEAD@{22}: reset: moving to ef96e250b2e43232ec03ea7337a7e50d20dabf17
+[33mef96e25[m[33m ([m[1;36mHEAD -> [m[1;32minit_project[m[33m)[m HEAD@{23}: pull --rebase origin init_project (finish): returning to refs/heads/init_project
+[33mef96e25[m[33m ([m[1;36mHEAD -> [m[1;32minit_project[m[33m)[m HEAD@{24}: pull --rebase origin init_project (start): checkout ef96e250b2e43232ec03ea7337a7e50d20dabf17
+[33m3173782[m HEAD@{25}: commit (amend): Init Project
+[33mef96e25[m[33m ([m[1;36mHEAD -> [m[1;32minit_project[m[33m)[m HEAD@{26}: pull --rebase origin init_project (finish): returning to refs/heads/init_project
+[33mef96e25[m[33m ([m[1;36mHEAD -> [m[1;32minit_project[m[33m)[m HEAD@{27}: pull --rebase origin init_project (start): checkout ef96e250b2e43232ec03ea7337a7e50d20dabf17
+[33mb0930b0[m HEAD@{28}: commit (amend): Init Project
+[33mef96e25[m[33m ([m[1;36mHEAD -> [m[1;32minit_project[m[33m)[m HEAD@{29}: rebase (finish): returning to refs/heads/init_project
+[33mef96e25[m[33m ([m[1;36mHEAD -> [m[1;32minit_project[m[33m)[m HEAD@{30}: rebase (start): checkout ef96e250b2e43232ec03ea7337a7e50d20dabf17
+[33mf6d4920[m HEAD@{31}: commit (amend): Init Project
+[33mef96e25[m[33m ([m[1;36mHEAD -> [m[1;32minit_project[m[33m)[m HEAD@{32}: reset: moving to ef96e250b2e43232ec03ea7337a7e50d20dabf17
+[33m5588205[m HEAD@{33}: commit (amend): Init project
+[33mef96e25[m[33m ([m[1;36mHEAD -> [m[1;32minit_project[m[33m)[m HEAD@{34}: reset: moving to ef96e250b2e43232ec03ea7337a7e50d20dabf17
+[33m7441973[m HEAD@{35}: commit (amend): Init Project
+[33mef96e25[m[33m ([m[1;36mHEAD -> [m[1;32minit_project[m[33m)[m HEAD@{36}: reset: moving to ef96e250b2e43232ec03ea7337a7e50d20dabf17
+[33mf99f0c8[m HEAD@{37}: commit (amend): Init Project
+[33mef96e25[m[33m ([m[1;36mHEAD -> [m[1;32minit_project[m[33m)[m HEAD@{38}: reset: moving to ef96e250b2e43232ec03ea7337a7e50d20dabf17
+[33mef96e25[m[33m ([m[1;36mHEAD -> [m[1;32minit_project[m[33m)[m HEAD@{39}: checkout: moving from static-pages to init_project
+[33me8b876f[m[33m ([m[1;31morigin/static-pages[m[33m, [m[1;32mstatic-pages[m[33m)[m HEAD@{40}: commit: Finish static pages
+[33m82a88df[m HEAD@{41}: commit: Add a Static Pages controller
+[33mef96e25[m[33m ([m[1;36mHEAD -> [m[1;32minit_project[m[33m)[m HEAD@{42}: checkout: moving from init_project to static-pages
+[33mef96e25[m[33m ([m[1;36mHEAD -> [m[1;32minit_project[m[33m)[m HEAD@{43}: commit: Init Project
+[33m63f7c4a[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m HEAD@{44}: checkout: moving from main to init_project
+[33m63f7c4a[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m HEAD@{45}: clone: from github.com:congth2001/sample-app.git
