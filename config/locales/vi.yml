@@ -1,0 +1,48 @@
+vi:
+  title: "Ứng dụng mẫu Ruby on Rails"
+  layouts:
+    header:
+      logo: "Ứng Dụng Đơn Giản"
+      home: "Trang chủ"
+      help: "Trợ giúp"
+      log_in: "Đăng nhập"
+    footer:
+      tutorial_author: "bởi Michael Hartl"
+      about: "Thông tin"
+      contact: "Liên hệ"
+      news: "Tin tức"
+      en: "Tiếng Anh"
+      vi: "Tiếng Việt"
+  static_pages:
+    home:
+      title: "Trang chủ"
+      welcome: "Chào mừng đến với Ứng dụng mẫu"
+      first_intro: "Đây là trang chủ Ứng dụng mẫu của"
+      second_intro: ""
+      sign_up: "Đăng ký ngay!"
+    about:
+      title: "Về chúng tôi"
+      welcome: "Về chúng tôi"
+      the: "Cuốn"
+      comment1: "là một phần"
+      comment2: "về"
+      learn_enough: "luyện tập đủ"
+      comment3: "để dạy phát triển web với"
+      second_intro: "Đây là ứng dụng mẫu của hướng dẫn này"
+    contact:
+      title: "Liên hệ"
+      welcome: "Liên hệ"
+      first_intro: "Bạn có thể liên hệ với tác giả về  ứng dụng mẫu"
+      contact_link: "tại đây"
+    help:
+      title: "Trợ giúp"
+      welcome: "Chào mừng đến với trang Trợ giúp"
+      first_intro: "Nhận sự hỗ trợ của Hướng dẫn Ruby on Rails tại"
+      help_link: "trang hướng dẫn Rail"
+      second_intro: "Nhận hỗ trợ về ứng dụng mẫu, xem tại"
+      book_link: "Sách Hướng dẫn Ruby on Rails"
+  users:
+    new:
+      title: "Đăng ký"
+      welcome: "Đăng ký"
+      first_intro: "Đây sẽ là trang đăng ký cho người dùng mới."
