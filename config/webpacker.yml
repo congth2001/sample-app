@@ -75,7 +75,6 @@ test:
 
 production:
   <<: *default
-
   compile: false
 
   extract_css: true
