@@ -1,0 +1,12 @@
+<% provide(:title, t(".title")) %>
+<h1><%= t(".welcome") %></h1>
+<p>
+  <%= t(".the")%><em> <%= link_to "Ruby on Rails Tutorial", Settings.href.rails_tutorial %> 
+  </em>, <%= t("static_pages.about.comment1") %>
+      
+  <%= link_to t(".learn_enough"), Settings.href.learn %> <%= t(".comment2") %>
+  <%= link_to t(".book"), Settings.href.book %> <%= t(".and") %>
+  <%= link_to t(".screencast_series"), Settings.href.screencast %>
+  <%= t(".comment3") %> <%= link_to "Ruby on Rails", Settings.href.rails %>.
+  <%= t(".second_intro") %>.
+</p>
