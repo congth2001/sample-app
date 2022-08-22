@@ -1,8 +1,6 @@
 require "active_support/core_ext/integer/time"
 
-
 Rails.application.configure do
-
   config.cache_classes = false
   config.action_view.cache_template_loading = true
 
@@ -20,7 +18,6 @@ Rails.application.configure do
   config.action_dispatch.show_exceptions = false
 
   config.action_controller.allow_forgery_protection = false
-
   config.active_storage.service = :test
 
   config.action_mailer.perform_caching = false
