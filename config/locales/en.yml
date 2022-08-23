@@ -3,12 +3,18 @@ en:
   title: "Ruby on Rails Tutorial Sample App"
   not_found: "Not found!"
   failure: "Sign up failed!"
+  invalid: "Invalid email/password combination"
   layouts:
     header:
       logo: "Sample App"
       home: "Home"
       help: "Help"
       log_in: "Log in"
+      user: "Users"
+      account: "Account"
+      profile: "Profile"
+      setting: "Settings"
+      log_out: "Log out"
     footer:
       tutorial_author: "by Michael Hartl"
       about: "About"
@@ -54,3 +60,9 @@ en:
     error_messages:
       prefix: "The form contains %{err_count} "
       error: "error"
+  sessions:
+    new:
+      login: "Log in"
+      new: "New user?"
+      signup: "Sign up now!"
+      pwd: "Password"

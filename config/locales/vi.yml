@@ -3,12 +3,18 @@ vi:
   title: "Ứng dụng mẫu Ruby on Rails"
   not_found: "Không tìm thấy!"
   failure: "Đăng ký thất bại!"
+  invalid: "Kết hợp email / mật khẩu không hợp lệ"
   layouts:
     header:
       logo: "Ứng Dụng Đơn Giản"
       home: "Trang chủ"
       help: "Trợ giúp"
       log_in: "Đăng nhập"
+      user: "Người dùng"
+      account: "Tài khoản"
+      profile: "Hồ sơ"
+      setting: "Cài đặt"
+      log_out: "Đăng xuất"
     footer:
       tutorial_author: "bởi Michael Hartl"
       about: "Thông tin"
@@ -57,3 +63,9 @@ vi:
     error_messages:
       prefix: "Bạn có %{err_count} "
       error: "Lỗi"
+  sessions:
+    new:
+      login: "Đăng nhập"
+      new: "Người dùng mới?"
+      signup: "Đăng ký ngay!"
+      pwd: "Mật khẩu"
