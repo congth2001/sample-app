@@ -1,5 +1,8 @@
 vi:
+  welcome: "Xin chào bạn đến với ứng dụng mẫu!"
   title: "Ứng dụng mẫu Ruby on Rails"
+  not_found: "Không tìm thấy!"
+  failure: "Đăng ký thất bại!"
   layouts:
     header:
       logo: "Ứng Dụng Đơn Giản"
@@ -46,3 +49,11 @@ vi:
       title: "Đăng ký"
       welcome: "Đăng ký"
       first_intro: "Đây sẽ là trang đăng ký cho người dùng mới."
+      name: "Tên"
+      pwd: "Mật khẩu"
+      password_confirmation: "Xác nhận lại mật khẩu"
+      submit: "Tạo tài khoản"
+  shared:
+    error_messages:
+      prefix: "Bạn có %{err_count} "
+      error: "Lỗi"
