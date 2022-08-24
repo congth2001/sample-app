@@ -63,7 +63,6 @@ GEM
     addressable (2.8.0)
       public_suffix (>= 2.0.2, < 5.0)
     ast (2.4.2)
-
     autoprefixer-rails (10.4.7.0)
       execjs (~> 2)
     bcrypt (3.1.13)
@@ -124,7 +123,8 @@ GEM
       dry-schema (~> 1.8, >= 1.8.0)
     erubi (1.11.0)
     execjs (2.8.1)
-
+    faker (2.1.2)
+      i18n (>= 0.8)
     ffi (1.15.5)
     globalid (1.0.0)
       activesupport (>= 5.0)
@@ -152,6 +152,8 @@ GEM
     nio4r (2.5.8)
     nokogiri (1.13.8-x86_64-linux)
       racc (~> 1.4)
+    pagy (5.10.1)
+      activesupport
     parallel (1.22.1)
     parser (3.1.2.1)
       ast (~> 2.4.1)
@@ -186,11 +188,9 @@ GEM
       nokogiri (>= 1.6)
     rails-html-sanitizer (1.4.3)
       loofah (~> 2.3)
-
     rails-i18n (7.0.5)
       i18n (>= 0.7, < 2)
       railties (>= 6.0.0, < 8)
-
     railties (6.1.6.1)
       actionpack (= 6.1.6.1)
       activesupport (= 6.1.6.1)
@@ -283,23 +283,21 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-
   bcrypt (= 3.1.13)
   bootsnap (>= 1.4.4)
   bootstrap-sass (= 3.4.1)
   byebug
   capybara (>= 3.26)
   config
-
+  faker (= 2.1.2)
   jbuilder (~> 2.7)
   listen (~> 3.3)
   mysql2 (~> 0.5)
+  pagy
   puma (~> 5.0)
   rack-mini-profiler (~> 2.0)
   rails (~> 6.1.6)
-
   rails-i18n
-
   rubocop (~> 1.26)
   rubocop-checkstyle_formatter
   rubocop-rails (~> 2.14.0)

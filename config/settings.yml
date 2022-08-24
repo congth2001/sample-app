@@ -13,6 +13,7 @@ digits:
   length_name_max_50: 50
   length_email_max_255: 255
   length_password_min_6: 6
+  size_of_page: 10
 
 regex:
   email: !ruby/regexp '/\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/'
@@ -20,3 +21,5 @@ regex:
 gravatar:
   url: "https://secure.gravatar.com/avatar"
   size: 80
+  url_gravatar: "https://gravatar.com/emails"
+  users_size: 50
