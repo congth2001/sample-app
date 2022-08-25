@@ -18,9 +18,9 @@ class UsersController < ApplicationController
   def create
     @user = User.new(user_params)
     if @user.save
-      log_in @user
-      flash[:success] = t "welcome"
-      redirect_to @user
+      @user.send_activation_email
+      flash[:info] = t "check_atv"
+      redirect_to login_url
     else
       flash[:danger] = t "failure"
       render :new
@@ -28,7 +28,7 @@ class UsersController < ApplicationController
   end
 
   def index
-    @pagy, @users = pagy User.sort_list, items: Settings.digits.size_of_page
+    @pagy, @users = pagy User.activated.sort_list, items: Settings.digits.size_of_page
   end
 
   def edit; end
@@ -61,7 +61,7 @@ class UsersController < ApplicationController
 
   def find_user
     @user = User.find_by id: params[:id]
-    return if @user
+    return if @user&.activated?
 
     flash[:danger] = t "not_found"
     redirect_to root_path
