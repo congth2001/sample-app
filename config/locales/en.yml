@@ -4,6 +4,11 @@ en:
   not_found: "Not found!"
   failure: "Sign up failed!"
   invalid: "Invalid email/password combination"
+  updated: "Profile updated"
+  not_updated: "Profile not updated"
+  deleted: "User deleted"
+  not_deleted: "User not deleted"
+  plz_login: "Please log in."
   layouts:
     header:
       logo: "Sample App"
@@ -52,10 +57,20 @@ en:
       title: "Sign up"
       welcome: "Sign up"
       first_intro: "This will be a signup page for new users."
+    form:
       name: "Name"
       pwd: "Password"
       password_confirmation: "Password Confirmation"
-      submit: "Create my account"
+    user:
+      delete: "Delete"
+      confirm: "You sure?"
+    edit:
+      edit_user: "Edit user"
+      save: "Save changes"
+      update: "Update your profile"
+      change: "change"
+    index:
+      all: "All users"
   shared:
     error_messages:
       prefix: "The form contains %{err_count} "

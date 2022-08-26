@@ -4,6 +4,11 @@ vi:
   not_found: "Không tìm thấy!"
   failure: "Đăng ký thất bại!"
   invalid: "Kết hợp email / mật khẩu không hợp lệ"
+  updated: "Đã cập nhật thông tin"
+  not_updated: "Chưa cập nhật thông tin"
+  deleted: "Đã xóa người dùng"
+  not_deleted: "Chưa xóa người dùng"
+  plz_login: "Hãy đăng nhập."
   layouts:
     header:
       logo: "Ứng Dụng Đơn Giản"
@@ -55,10 +60,20 @@ vi:
       title: "Đăng ký"
       welcome: "Đăng ký"
       first_intro: "Đây sẽ là trang đăng ký cho người dùng mới."
+    form:
       name: "Tên"
       pwd: "Mật khẩu"
       password_confirmation: "Xác nhận lại mật khẩu"
-      submit: "Tạo tài khoản"
+    user:
+      delete: "Xóa"
+      confirm: "Bạn chắc chứ?"
+    edit:
+      edit_user: "Chỉnh sửa người dùng"
+      save: "Lưu thay đổi"
+      update: "Cập nhật thông tin của bạn"
+      change: "thay đổi"
+    index:
+      all: "Tất cả người dùng"
   shared:
     error_messages:
       prefix: "Bạn có %{err_count} "

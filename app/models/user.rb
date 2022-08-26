@@ -12,7 +12,10 @@ class User < ApplicationRecord
             uniqueness: true
 
   validates :password, presence: true,
-            length: {minimum: Settings.digits.length_password_min_6}
+            length: {minimum: Settings.digits.length_password_min_6},
+            allow_nil: true
+
+  scope :sort_list, ->{order :name}
 
   has_secure_password
 
