@@ -9,6 +9,8 @@ en:
   deleted: "User deleted"
   not_deleted: "User not deleted"
   plz_login: "Please log in."
+  check_atv: "Please check your email to activate your account."
+  not_atv: "Account not activated. Check your email for the activation link."
   layouts:
     header:
       logo: "Sample App"
@@ -57,6 +59,7 @@ en:
       title: "Sign up"
       welcome: "Sign up"
       first_intro: "This will be a signup page for new users."
+      submit: "Submit"
     form:
       name: "Name"
       pwd: "Password"
@@ -82,3 +85,9 @@ en:
       signup: "Sign up now!"
       pwd: "Password"
       remember_me: "Remember me on this computer"
+  user_mailer:
+      account_activation:
+        sample: "Sample App"
+        welcome: "Welcome to the Sample App! Click on the link below to activate your account:"
+        activate: "Activate"
+        hi: "Hi"

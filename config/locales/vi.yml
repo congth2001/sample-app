@@ -9,6 +9,7 @@ vi:
   deleted: "Đã xóa người dùng"
   not_deleted: "Chưa xóa người dùng"
   plz_login: "Hãy đăng nhập."
+  check_atv: "Hãy kiểm tra email của bạn để kích hoạt tài khoản của bạn."
   layouts:
     header:
       logo: "Ứng Dụng Đơn Giản"
@@ -60,6 +61,7 @@ vi:
       title: "Đăng ký"
       welcome: "Đăng ký"
       first_intro: "Đây sẽ là trang đăng ký cho người dùng mới."
+      submit: "Xác nhận"
     form:
       name: "Tên"
       pwd: "Mật khẩu"
@@ -85,3 +87,10 @@ vi:
       signup: "Đăng ký ngay!"
       pwd: "Mật khẩu"
       remember_me: "Ghi nhớ trên máy tính này"
+  user_mailer:
+    account_activation:
+      sample: "Ứng dụng đơn giản"
+      welcome: "Chào mừng bạn đến với Ứng dụng mẫu! Nhấp vào liên kết bên dưới để kích hoạt tài khoản của bạn:"
+      activate: "Kích hoạt"
+      not_atv: "Tài khoản chưa được kích hoạt. Kiểm tra email của bạn để biết liên kết kích hoạt."
+      hi: "Xin chào"
