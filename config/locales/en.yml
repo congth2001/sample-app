@@ -16,6 +16,13 @@ en:
   empty_pw: "Can't be empty"
   pw_reset: "Password has been reset."
   pw_expired: "Password reset has expired"
+  mp_created: "Micropost created!"
+  mp_not_created: "Nothing micropost created!"
+  mp_deleted: "Micropost deleted!"
+  oversize: "Maximum file size is 5MB. Please choose a smaller file."
+  valid_img_format: "must be a valid image format"
+  valid_img_volume: "should be less than 5MB"
+
   layouts:
     header:
       logo: "Sample App"
@@ -39,6 +46,7 @@ en:
       first_intro: "This is the home page for"
       second_intro: "sample application"
       sign_up: "Sign up now!"
+      feed: "Micropost Feed"
     about:
       title: "About"
       welcome: "About"
@@ -83,6 +91,11 @@ en:
     error_messages:
       prefix: "The form contains %{err_count} "
       error: "error"
+    micropost_form:
+      compose: "Compose new micropost..."
+      post: "Post"
+    user_info:
+        view_profile: "view my profile"
   sessions:
     new:
       login: "Log in"
@@ -111,3 +124,9 @@ en:
       pw: "Password"
       cf: "Confirmation"
       updated: "Update password"
+  microposts:
+    micropost:
+      confirm: "You sure?"
+      delete: "Delete"
+      posted: "Posted"
+      ago: "ago."

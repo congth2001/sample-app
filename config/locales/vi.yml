@@ -15,6 +15,13 @@ vi:
   empty_pw: "Không thể trống"
   pw_reset: "Mật khẩu đã được đặt lại."
   pw_expired: "Đặt lại mật khẩu đã hết hạn"
+  mp_created: "Đã tạo micropost!"
+  mp_not_created: "Không có micropost nào được tạo!"
+  mp_deleted: "Đã xóa micropost!"
+  oversize: "Kích thước tệp tối đa là 5MB. Vui lòng chọn một tệp nhỏ hơn."
+  valid_img_format: "phải là một định dạng hình ảnh hợp lệ"
+  valid_img_volume: "phải nhỏ hơn 5MB"
+
   layouts:
     header:
       logo: "Ứng Dụng Đơn Giản"
@@ -40,6 +47,7 @@ vi:
       first_intro: "Đây là trang chủ Ứng dụng mẫu của"
       second_intro: ""
       sign_up: "Đăng ký ngay!"
+      feed: "Bảng tin Micropost"
     about:
       title: "Về chúng tôi"
       welcome: "Về chúng tôi"
@@ -85,6 +93,11 @@ vi:
     error_messages:
       prefix: "Bạn có %{err_count} "
       error: "Lỗi"
+    micropost_form:
+      compose: "Soạn micropost mới ..."
+      post: "Đăng"
+    user_info:
+        view_profile: "xem hồ sơ của tôi"
   sessions:
     new:
       login: "Đăng nhập"
@@ -114,3 +127,9 @@ vi:
       pw: "Mật khẩu"
       cf: "Xác nhận"
       updated: "Cập nhật mật khẩu"
+  microposts:
+    micropost:
+      confirm: "Bạn chắc chắn?"
+      delete: "Xóa"
+      posted: "Đã đăng"
+      ago: "trước."

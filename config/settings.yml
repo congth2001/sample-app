@@ -15,6 +15,9 @@ digits:
   length_password_min_6: 6
   size_of_page: 10
   time_expired: 2
+  length_content_max: 140
+  volume_img_max: 5
+  resize_limit: [500, 500]
 
 regex:
   email: !ruby/regexp '/\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/'
@@ -24,3 +27,6 @@ gravatar:
   size: 80
   url_gravatar: "https://gravatar.com/emails"
   users_size: 50
+
+image:
+  format: "%w[image/jpeg image/gif image/png]"
