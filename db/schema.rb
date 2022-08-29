@@ -10,7 +10,15 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 2022_08_23_083753) do
+=======
+<<<<<<< HEAD
+ActiveRecord::Schema.define(version: 2022_08_24_160927) do
+=======
+ActiveRecord::Schema.define(version: 2022_08_29_024912) do
+>>>>>>> def270f (Chapter 12)
+>>>>>>> f06dc67 (Chapter 12)
 
   create_table "users", charset: "utf8mb4", collation: "utf8mb4_0900_ai_ci", force: :cascade do |t|
     t.string "name"
@@ -19,6 +27,18 @@ ActiveRecord::Schema.define(version: 2022_08_23_083753) do
     t.datetime "updated_at", precision: 6, null: false
     t.string "password_digest"
     t.string "remember_digest"
+<<<<<<< HEAD
+=======
+    t.boolean "admin", default: false
+<<<<<<< HEAD
+=======
+    t.string "activation_digest"
+    t.boolean "activated", default: false
+    t.datetime "activated_at"
+    t.string "reset_digest"
+    t.datetime "reset_sent_at"
+>>>>>>> def270f (Chapter 12)
+>>>>>>> f06dc67 (Chapter 12)
   end
 
 end
