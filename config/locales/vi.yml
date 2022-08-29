@@ -10,6 +10,11 @@ vi:
   not_deleted: "Chưa xóa người dùng"
   plz_login: "Hãy đăng nhập."
   check_atv: "Hãy kiểm tra email của bạn để kích hoạt tài khoản của bạn."
+  infor_reset_pw: "Email được gửi với hướng dẫn đặt lại mật khẩu"
+  email_not_found: "Không tìm thấy địa chỉ email"
+  empty_pw: "Không thể trống"
+  pw_reset: "Mật khẩu đã được đặt lại."
+  pw_expired: "Đặt lại mật khẩu đã hết hạn"
   layouts:
     header:
       logo: "Ứng Dụng Đơn Giản"
@@ -94,3 +99,18 @@ vi:
       activate: "Kích hoạt"
       not_atv: "Tài khoản chưa được kích hoạt. Kiểm tra email của bạn để biết liên kết kích hoạt."
       hi: "Xin chào"
+    password_reset:
+      title: "Đặt lại mật khẩu"
+      intro: "Để đặt lại mật khẩu của bạn, nhấp vào liên kết bên dưới:"
+      body: "Liên kết này sẽ hết hạn trong hai giờ.
+             Nếu bạn không yêu cầu mật khẩu của mình được đặt lại, vui lòng bỏ qua email này và
+             mật khẩu của bạn sẽ ở lại như nó là."  
+  password_resets:
+    new:
+      forgot: "Quên mật khẩu"
+      submit: "Xác nhận"
+    edit: 
+      title: "Đặt lại mật khẩu"
+      pw: "Mật khẩu"
+      cf: "Xác nhận"
+      updated: "Cập nhật mật khẩu"
