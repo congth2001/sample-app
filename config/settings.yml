@@ -14,6 +14,7 @@ digits:
   length_email_max_255: 255
   length_password_min_6: 6
   size_of_page: 10
+  time_expired: 2
 
 regex:
   email: !ruby/regexp '/\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/'

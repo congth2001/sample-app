@@ -11,6 +11,11 @@ en:
   plz_login: "Please log in."
   check_atv: "Please check your email to activate your account."
   not_atv: "Account not activated. Check your email for the activation link."
+  infor_reset_pw: "Email sent with password reset instructions"
+  email_not_found: "Email address not found"
+  empty_pw: "Can't be empty"
+  pw_reset: "Password has been reset."
+  pw_expired: "Password reset has expired"
   layouts:
     header:
       logo: "Sample App"
@@ -86,8 +91,23 @@ en:
       pwd: "Password"
       remember_me: "Remember me on this computer"
   user_mailer:
-      account_activation:
-        sample: "Sample App"
-        welcome: "Welcome to the Sample App! Click on the link below to activate your account:"
-        activate: "Activate"
-        hi: "Hi"
+    account_activation:
+      sample: "Sample App"
+      welcome: "Welcome to the Sample App! Click on the link below to activate your account:"
+      activate: "Activate"
+      hi: "Hi"
+    password_reset:
+      title: "Password reset"
+      intro: "To reset your password click the link below:"
+      body: "This link will expire in two hours.
+             If you did not request your password to be reset, please ignore this email and
+             your password will stay as it is."
+  password_resets:
+    new:
+      forgot: "Forgot password"
+      submit: "Submit"
+    edit: 
+      title: "Reset password"
+      pw: "Password"
+      cf: "Confirmation"
+      updated: "Update password"
