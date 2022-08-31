@@ -27,6 +27,7 @@ gravatar:
   size: 80
   url_gravatar: "https://gravatar.com/emails"
   users_size: 50
+  user_avatar: 30
 
 image:
   format: "%w[image/jpeg image/gif image/png]"
