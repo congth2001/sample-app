@@ -5,10 +5,7 @@ class UsersController < ApplicationController
   before_action :admin_user, only: %i(destroy)
 
   def show  
-    return if @user
-
-    flash[:danger] = t "not_found"
-    redirect_to root_path
+    @pagy, @microposts = pagy @user.microposts.arrange, items: Settings.digits.size_of_page
   end
 
   def new
@@ -65,13 +62,6 @@ class UsersController < ApplicationController
 
     flash[:danger] = t "not_found"
     redirect_to root_path
-  end
-
-  def logged_in_user
-    return if logged_in?
-
-    flash[:danger] = t "plz_login"
-    redirect_to login_url
   end
 
   def correct_user

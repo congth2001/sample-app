@@ -18,6 +18,10 @@ gem "bcrypt", "3.1.13"
 gem "faker", "2.1.2"
 gem "pagy"
 gem "figaro"
+gem "active_storage_validations", "0.8.2"
+gem "image_processing", "1.12.2"
+gem "mini_magick", "4.9.5"
+gem "i18n-js", "3.9.2"
 
 group :development, :test do
   gem "byebug", platforms: [:mri, :mingw, :x64_mingw]

@@ -18,5 +18,10 @@
       <%= yield %>
       <%= render "layouts/footer" %>
     </div>
+
+    <script>
+      var language = "<%= I18n.locale %>";
+      I18n.translations = <%== I18n::JS.filtered_translations.to_json %>;
+    </script>
   </body>
 </html>
