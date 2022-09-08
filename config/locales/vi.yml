@@ -21,6 +21,8 @@ vi:
   oversize: "Kích thước tệp tối đa là 5MB. Vui lòng chọn một tệp nhỏ hơn."
   valid_img_format: "phải là một định dạng hình ảnh hợp lệ"
   valid_img_volume: "phải nhỏ hơn 5MB"
+  following: "Đang theo dõi"
+  followers: "Người theo dõi"
 
   layouts:
     header:
@@ -89,6 +91,12 @@ vi:
       change: "thay đổi"
     index:
       all: "Tất cả người dùng"
+    follow: 
+      follow: "Theo dõi"
+    unfollow: 
+      unfollow: "Hủy theo dõi"
+    show_follow:
+      view: "xem thông tin của tôi"
   shared:
     error_messages:
       prefix: "Bạn có %{err_count} "
@@ -97,7 +105,10 @@ vi:
       compose: "Soạn micropost mới ..."
       post: "Đăng"
     user_info:
-        view_profile: "xem hồ sơ của tôi"
+      view_profile: "xem hồ sơ của tôi"
+    stats:
+      following: "đang theo dõi"
+      followers: "người theo dõi"
   sessions:
     new:
       login: "Đăng nhập"

@@ -22,6 +22,8 @@ en:
   oversize: "Maximum file size is 5MB. Please choose a smaller file."
   valid_img_format: "must be a valid image format"
   valid_img_volume: "should be less than 5MB"
+  following: "Following"
+  followers: "Followers"
 
   layouts:
     header:
@@ -87,6 +89,12 @@ en:
       change: "change"
     index:
       all: "All users"
+    follow: 
+      follow: "Follow"
+    unfollow: 
+      unfollow: "Unfollow"
+    show_follow:
+      view: "view my profile"
   shared:
     error_messages:
       prefix: "The form contains %{err_count} "
@@ -95,7 +103,10 @@ en:
       compose: "Compose new micropost..."
       post: "Post"
     user_info:
-        view_profile: "view my profile"
+      view_profile: "view my profile"
+    stats:
+      following: "following"
+      followers: "followers"
   sessions:
     new:
       login: "Log in"

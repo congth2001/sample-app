@@ -56,14 +56,6 @@ class UsersController < ApplicationController
                                  :password_confirmation)
   end
 
-  def find_user
-    @user = User.find_by id: params[:id]
-    return if @user&.activated?
-
-    flash[:danger] = t "not_found"
-    redirect_to root_path
-  end
-
   def correct_user
     redirect_to root_url unless @user == current_user
   end
